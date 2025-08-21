@@ -45,7 +45,8 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "build": "build-theme"
+    "build": "build-theme",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "media-chrome": ">=1.0.0"
